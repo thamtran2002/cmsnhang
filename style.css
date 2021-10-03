@@ -233,6 +233,10 @@ span {
 }
 
 .avatar__img {
+    position: fixed;
+    left:300px;
+    right:250px;
+    top:500px;
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -245,6 +249,7 @@ span {
 }
 
 .avatar__title {
+  
     cursor: pointer;
     margin-top: -100px;
     -webkit-animation: balloon1 4s ease-in-out infinite;
@@ -418,9 +423,9 @@ span {
 }
 
 h1 {
-    position: relative;
-    top: -300px;
-    left : 300px;
+    position: fixed;
+    top: 250px;
+    left : 0px;
     text-align: ;
     color: pink;
     font-size: 2.5em;
