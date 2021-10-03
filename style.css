@@ -424,13 +424,7 @@ h1 {
     color: pink;
     font-size: 3.5em;
 }
-h2 {
-    background: red;
-    width: px;
-    position: absolute;
-    right: -200px;
-    top: 300px;
-}
+
 .swal-overlay {
     background-color: rgba(218, 57, 177, 0.45);
 }
