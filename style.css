@@ -416,12 +416,20 @@ span {
         transform: translate(-15px, 10px) rotate(10deg);
     }
 }
+
 h1 {
     position: relative;
     top: 200px;
     text-align: ;
     color: pink;
     font-size: 3.5em;
+}
+h2 {
+    background: red;
+    width: px;
+    position: absolute;
+    right: -20px;
+    top: 15px;
 }
 .swal-overlay {
     background-color: rgba(218, 57, 177, 0.45);
