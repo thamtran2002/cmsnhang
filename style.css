@@ -428,8 +428,8 @@ h2 {
     background: red;
     width: px;
     position: absolute;
-    right: -20px;
-    top: 15px;
+    right: -200px;
+    top: 300px;
 }
 .swal-overlay {
     background-color: rgba(218, 57, 177, 0.45);
