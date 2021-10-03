@@ -236,7 +236,7 @@ span {
     position: relative;
     left:-250px;
     right:250px;
-    top:100px;
+    top:600px;
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -248,16 +248,15 @@ span {
     animation: balloon1 6s ease-in-out infinite;
 }
 .avatar__video {
-    position: relative;
-    left:800px;
-    right:250px;
-    top:400px;
+    position: absolute;
+    left:200px;
+    top:450px;
     
 }
 
 .avatar__title {
    position: relative;
-    top: 200px;
+    top: 700px;
     left : -450px;
     color: pink;
     font-size: 2.5em;
