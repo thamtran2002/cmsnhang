@@ -251,9 +251,7 @@ span {
     position: absolute;
     left:200px;
     top:450px;
-    
 }
-
 .avatar__title {
     cursor: pointer;
     margin-top: -100px;
@@ -261,16 +259,21 @@ span {
     -moz-animation: balloon1 4s ease-in-out infinite;
     -o-animation: balloon1 4s ease-in-out infinite;
     animation: balloon1 4s ease-in-out infinite;
-  
-  
-  
 }
 h1 {
      position: relative;
-    top: 700px;
-    left : -300px;
+    top: 800px;
+    left : -250px;
     color: pink;
     font-size: 2.5em;
+}
+.scroll {
+    position: relative;
+    top: 500px;
+    left : 250px;
+    color: white;
+    font-size: 3.5em;
+    
 }
 .balloon > div:before {
     color: rgba(182, 15, 97, 0.9);
