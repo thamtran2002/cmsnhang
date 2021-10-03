@@ -234,7 +234,7 @@ span {
 
 .avatar__img {
     position: fixed;
-    left:300px;
+    left:400px;
     right:250px;
     top:500px;
     width: 200px;
@@ -246,6 +246,13 @@ span {
     -moz-animation: balloon1 6s ease-in-out infinite;
     -o-animation: balloon1 6s ease-in-out infinite;
     animation: balloon1 6s ease-in-out infinite;
+}
+.avatar__video {
+    position: fixed;
+    left:800px;
+    right:250px;
+    top:400px;
+    
 }
 
 .avatar__title {
@@ -423,9 +430,9 @@ span {
 }
 
 h1 {
-    position: fixed;
-    top: 250px;
-    left : 0px;
+    position: relative;
+    top: 450px;
+    right : 0 px;
     text-align: ;
     color: pink;
     font-size: 2.5em;
