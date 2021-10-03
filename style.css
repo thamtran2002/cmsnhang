@@ -233,10 +233,10 @@ span {
 }
 
 .avatar__img {
-    position: fixed;
-    left:400px;
+    position: relative;
+    left:-250px;
     right:250px;
-    top:500px;
+    top:100px;
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -248,7 +248,7 @@ span {
     animation: balloon1 6s ease-in-out infinite;
 }
 .avatar__video {
-    position: fixed;
+    position: relative;
     left:800px;
     right:250px;
     top:400px;
@@ -256,7 +256,11 @@ span {
 }
 
 .avatar__title {
-  
+   position: relative;
+    top: 200px;
+    left : -450px;
+    color: pink;
+    font-size: 2.5em;
     cursor: pointer;
     margin-top: -100px;
     -webkit-animation: balloon1 4s ease-in-out infinite;
@@ -429,14 +433,7 @@ span {
     }
 }
 
-h1 {
-    position: relative;
-    top: 450px;
-    right : 0 px;
-    text-align: ;
-    color: pink;
-    font-size: 2.5em;
-}
+
 
 .swal-overlay {
     background-color: rgba(218, 57, 177, 0.45);
