@@ -29,7 +29,7 @@ span {
 .balloon {
     width: 738px;
     margin: 0 auto;
-    padding-top: 30px;
+    padding-top: 00px;
     position: relative;
     font-family: "Wendy One", sans-serif;
 }
@@ -233,24 +233,16 @@ span {
 }
 
 .avatar__img {
-    position: relative;
-    left:-250px;
-    right:250px;
-    top:600px;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    border: 5px solid rgba(234, 15, 150, 0.9);
+    position: absolute;
+    top:100px;
+    width: 400px;
+    height: 400px;
+  left:150px;
     box-shadow: inset 10px 10px 10px rgba(15, 219, 234, 0.9);
     -webkit-animation: balloon1 6s ease-in-out infinite;
     -moz-animation: balloon1 6s ease-in-out infinite;
     -o-animation: balloon1 6s ease-in-out infinite;
     animation: balloon1 6s ease-in-out infinite;
-}
-.avatar__video {
-    position: absolute;
-    left:200px;
-    top:450px;
 }
 .avatar__title {
     cursor: pointer;
@@ -259,22 +251,290 @@ span {
     -moz-animation: balloon1 4s ease-in-out infinite;
     -o-animation: balloon1 4s ease-in-out infinite;
     animation: balloon1 4s ease-in-out infinite;
+  font-family: 'Lobster', cursive;
 }
 h1 {
      position: relative;
-    top: 800px;
-    left : -250px;
+    top: 200px;
     color: pink;
     font-size: 2.5em;
 }
-.scroll {
-    position: relative;
-    top: 500px;
-    left : 250px;
-    color: white;
-    font-size: 3.5em;
-    
+h2 {
+     position: relative;
+    top: 300px;
+    color: pink;
+    font-size: 2.5em;
 }
+.video-container{
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  align-items: center;
+  
+}
+.video-container video{
+  margin-bottom: 20px;
+  width: 50%;
+}
+
+/* .video-container .video1 {
+    left:500px;
+    top:50px;
+}
+.video-container .video2 {
+    left:500px;
+    top:800px;
+}
+.video-container .video3 {
+    left:500px;
+    top:1500px;
+}
+.video-container .video4 {
+    left:500px;
+    top:2300px;
+} */
+.ngaysn {
+    top:100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: Pink;
+    font-size: 2.5em;
+  font-family: 'Arial', cursive; 
+  line-height:1.5;
+   text-decoration: none;
+}
+
+.chonngay {
+    position: relative;
+    top:350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: Pink;
+    font-size: 2em;
+  font-family: 'Arial', cursive; 
+   text-decoration: none;
+}
+.hopqua1 {
+    position: absolute;
+    width:200px;
+    height:200px;
+    left:50px;
+    top:100px;
+  
+}
+.hopqua2 {
+    position: absolute;
+    width:200px;
+    height:200px;
+    left:350px;
+    top:100px;
+   color:Pink;
+  font-size: 2em;
+}
+.hopqua3 {
+    position: absolute;
+    width:200px;
+    height:200px;
+    left:650px;
+    top:100px;
+   color:Pink;
+  font-size: 2em;
+}
+.hopqua4 {
+    position: absolute;
+    width:200px;
+    height:200px;
+    left:950px;
+    top:100px;
+   color:Pink;
+  font-size: 2em;
+}
+.hopqua5 {
+    position: absolute;
+    width:200px;
+    height:200px;
+    left:1250px;
+    top:100px;
+   color:Pink;
+  font-size: 2em;
+}
+.hopqua6 {
+    position: absolute;
+    width:200px;
+    height:200px;
+    left:50px;
+    top:400px;
+   color:Pink;
+  font-size: 2em;
+}
+.hopqua7 {
+    position: absolute;
+    width:200px;
+    height:200px;
+    left:350px;
+    top:400px;
+   color:Pink;
+  font-size: 2em;
+}
+.hopqua8 {
+    position: absolute;
+    width:200px;
+    height:200px;
+    left:650px;
+    top:400px;
+   color:Pink;
+  font-size: 2em;
+}
+.hopqua9 {
+    position: absolute;
+    width:200px;
+    height:200px;
+    left:950px;
+    top:400px;
+   color:Pink;
+  font-size: 2em;
+}
+.hopqua10 {
+    position: absolute;
+    width:200px;
+    height:200px;
+    left:1250px;
+    top:400px;
+   color:Pink;
+  font-size: 2em;
+}
+.hopqua11 {
+    position: relative;
+    top:600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: Pink;
+    font-size: 2em;
+  font-family: 'lobster', cursive; 
+  text-decoration: none;
+}
+.hopqua12 {
+    position: absolute;
+    left:100px;
+    top:700px;
+   color:Pink;
+  font-size: 1em;
+  font-family: 'Arial', cursive; 
+  text-decoration: none;
+}
+.error {
+    position: relative;
+    top:300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: Pink;
+    font-size: 2em;
+  font-family: 'Arial', cursive;
+  text-decoration: none;
+}
+
+.tranghpbd {
+     
+  position: relative;
+    top:400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: Pink;
+    font-size: 4em;
+  font-family: 'Lobster', cursive;
+  text-decoration: none;
+  -webkit-animation: balloon1 4s ease-in-out infinite;
+    -moz-animation: balloon1 4s ease-in-out infinite;
+    -o-animation: balloon1 4s ease-in-out infinite;
+    animation: balloon1 4s ease-in-out infinite;
+  font-family: 'Lobster', cursive;
+  line-height:0.5;
+}
+.tranghpbd1 {
+    position: relative;
+    top:400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: Pink;
+    font-size: 1.5em;
+  font-family: 'Arial', cursive; 
+  text-decoration: none;
+  line-height:1;
+}
+.trangvideo {
+   color: pink;
+  font-size: 1rem;
+  text-align: center;
+}
+.video-bottom{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.video-bottom a{
+  color: pink;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.trangani {
+    
+    
+  top:50px;
+   color:red;
+  font-size: 1em;
+  text-align: center;
+}
+.trangani1 {
+    position: absolute;
+    left:100px;
+    top:500px;
+   color:Pink;
+  font-size: 1em;
+  text-decoration: none;
+}
+.trangani2 {
+    position: absolute;
+    right:100px;
+    top:500px;
+   color:Pink;
+  font-size: 1em;
+  text-decoration: none;
+}
+.trangloi {
+    position: absolute;
+    left:10px;
+    top:300px;
+   color:red;
+  font-size: 1em;
+   text-decoration: none;
+}
+.trangloi1 {
+    position: absolute;
+    left:100px;
+    top:700px;
+   color:Pink;
+  font-size: 1em;
+   text-decoration: none;
+  line-height:1.5;
+}
+.trangloi2 {
+    position: absolute;
+    right:100px;
+    top:700px;
+   color:Pink;
+  font-size: 1em;
+   text-decoration: none;
+}
+
 .balloon > div:before {
     color: rgba(182, 15, 97, 0.9);
     position: absolute;
@@ -440,8 +700,6 @@ span {
     }
 }
 
-
-
 .swal-overlay {
     background-color: rgba(218, 57, 177, 0.45);
 }
@@ -451,4 +709,83 @@ span {
     font-weight: 200;
     word-spacing: 10px;
 }
- 
+/* ********************************************************* */
+body {
+    font-family: sans-serif;
+    font-size: 100%;
+    
+    margin: 0 auto;
+    padding: 5em;
+    width: 70em;
+}
+figure {
+    
+    float: left;
+    height: 10em;
+    margin: 3em;
+    width: 15em;
+    -webkit-transform-style: preserve-3d;
+    -webkit-transition: .5s;
+}
+figure:hover {
+    -webkit-transform: perspective(500) rotateX(90deg) translateY(-3em) translateZ(3em);
+}
+img {
+    display: block;
+    height: 100%;
+    -webkit-transition: .5s;
+}
+figure:hover img {
+    box-shadow: none;
+}
+figcaption {
+    
+    color: #fff;
+    padding: 0em;
+    -webkit-transform: rotateX(-90deg);
+    -webkit-transform-origin: 50% 0;
+    -webkit-transition: .5s;
+}
+figure:hover figcaption {
+    box-shadow: 0 20px 15px -10px hsla(0,0%,0%,.25);
+}
+h3 {
+    font-weight: bold;
+}
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+img {
+padding: 30px;
+transform: scale(1);
+transition: all 0.5s;
+background-color: transparent !important;
+box-shadow: none !important;
+}
+img:hover {
+transform: scale(1.1);
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+.wrong1 {
+  top:200px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: Pink;
+    font-size: 2.5em;
+  font-family: 'Arial', cursive; 
+  line-height:1.5;
+   text-decoration: none;
+}
+.wrong2 {
+  top:100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: Pink;
+    font-size: 2.5em;
+  font-family: 'Arial', cursive; 
+  line-height:1.5;
+   text-decoration: none;
+}

@@ -30,6 +30,24 @@
       src="chrome-extension://bfbmjmiodbnnpllbbbfblcplfjjepjdn/js/injected.js"
     ></script>
     <meta content="clickberry-extension-here" />
+<!--    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1 -->
+    <style type="text/css">
+        #test{
+        
+            width:100px;
+            height:100px;
+            position:relative;
+            left:0px;
+            animation-name:move_right;
+            animation-duration:3s;
+            animation-iteration-count:infinite;
+        }
+        @keyframes move_right{
+            0%{left:0px;}
+            100%{left:500px;}
+        }
+    </style>
+<!--     !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
   </head>
 
   <body>
@@ -38,45 +56,38 @@
       rel="stylesheet"
       type="text/css"
     />
-    <div >
-      <text class="scroll">Scroll Down </text>
-    </div>
 
-          
-      <div class="avatar">
+      
+        <p class="trangloi">Nhấp chuột vào bức thư đi ------> </p>  
+        <a class="trangloi1" href=5video.html >Quay lại</a>
+        <a class="trangloi2" href=1Date.html >Trang đầu</a>
+   
         <!-- 3. Avatar của người bạn muốn gởi lời chúc -->
-       
-        <img 
-          src="https://scontent.fhan5-7.fna.fbcdn.net/v/t1.15752-9/243720318_261282345887859_4710776530794741351_n.png?_nc_cat=103&ccb=1-5&_nc_sid=ae9488&_nc_ohc=skqsNFe_RVYAX-Uzexs&_nc_ht=scontent.fhan5-7.fna&oh=bd97824212afa2ff53bf8a92e2a30577&oe=617FA0CE"
+        <div id="test">
+            <img 
+          src="https://cdn.glitch.me/7385dd4d-aab3-4f3a-8ec3-463db9f5dadd%2Fkisspng-clip-art-envelope-5a71463ce99b70.0409395215173729889569.png?v=1633858294734"
           alt=""
           class="avatar__img"
           onclick="showMessage()"
-        />
-        <video width="400px" height="600px" alt=""
-          class="avatar__video" controls loop>
-            <source
-              src="https://cdn.glitch.com/d38d5535-eac9-4b50-ae00-54747837eba1%2Fvideo-1633006954.mp4?v=1633249415043" 
-            />
-          </video>
-        <!-- 4. Tên của người đó -->
-        <h1 onclick="showMessage()" class="avatar__title">Giấu Tên  </h1>
-      </div>
+           />
+        </div>
+      
 
-      <!-- 5. Phần nhạc 
            <audio id="player" autoplay loop>
-                <source src="https://cdn.glitch.com/d38d5535-eac9-4b50-ae00-54747837eba1%2Fmusic1.mp3?v=1633249087210" type="audio/mp3">
+                <source src="https://cdn.glitch.me/7385dd4d-aab3-4f3a-8ec3-463db9f5dadd%2FH%C6%B0%C6%A1ng%20H%E1%BB%93ng%20Hoa%E3%80%8CLyric%20%E3%80%8D-%20Tofu%20-%20PC.mp3?v=1633406042470" type="audio/mp3">
             </audio>
-          -->
-    </div>
+         
+    
     <script>
       if (document.location.search.match(/type=embed/gi)) {
         window.parent.postMessage("resize", "*");
       }
       function showMessage() {
-        // 6. Lời nhắn hiện ra khi bấm vào tên hoặc avatar
+        // 6. Lời nhắn hiện ra khi bấm vào bức thư
         swal({
           title: "Lời nhắn", // Tiêu đề của popup
-          text: "Chúc mừng sinh nhật lợn", // Nội dung lời nhắn
+          text: "Ghi 1 lời chúc thật ý nghĩa ", // Nội dung lời nhắn
+          
 
           button: {
             text: "❤️️"
@@ -87,3 +98,8 @@
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   </body>
 </html>
+<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+
+
+
+            
